@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Design | Дизайнерский ремонт и интерьеры</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">
+                <span class="logo__symbol">ND</span>
+                <span class="logo__text">Nordic<span class="logo__accent">Design</span></span>
+            </a>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="#process" class="nav__link">Процесс</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link btn btn--outline">Консультация</a></li>
+                </ul>
+                <button class="nav__toggle" id="navToggle">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero__content">
+            <div class="container">
+                <div class="hero__text">
+                    <h1 class="hero__title">Дизайн интерьеров,<br>которые дышат</h1>
+                    <p class="hero__subtitle">Создаем пространства, где каждая деталь продумана. Минимализм, функциональность и натуральные материалы.</p>
+                    <div class="hero__cta">
+                        <a href="#contact" class="btn btn--primary btn--large">Обсудить проект</a>
+                        <a href="#projects" class="btn btn--text">Смотреть проекты →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__image">
+            <div class="hero__stats">
+                <div class="stat">
+                    <span class="stat__number">150+</span>
+                    <span class="stat__label">Проектов</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">8</span>
+                    <span class="stat__label">Лет опыта</span>
+                </div>
+                <div class="stat">
+                    <span class="stat__number">98%</span>
+                    <span class="stat__label">Довольных клиентов</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__image">
+                    <div class="image-frame">
+                        <img src="4.jpg" alt="Дизайнер за работой">
+                    </div>
+                </div>
+                <div class="about__content">
+                    <span class="section-label">О студии</span>
+                    <h2 class="section-title">Философия простоты и гармонии</h2>
+                    <p class="about__text">Мы верим, что идеальный интерьер — это не роскошь, а необходимость. Пространство, которое отражает вашу личность, поддерживает ритм жизни и дарит вдохновение каждый день.</p>
+                    <div class="about__features">
+                        <div class="feature">
+                            <i class="feature__icon fas fa-leaf"></i>
+                            <div>
+                                <h4 class="feature__title">Экологичность</h4>
+                                <p class="feature__text">Используем натуральные, безопасные материалы</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="feature__icon fas fa-ruler-combined"></i>
+                            <div>
+                                <h4 class="feature__title">Точность</h4>
+                                <p class="feature__text">Детальная проработка каждого элемента</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="feature__icon fas fa-handshake"></i>
+                            <div>
+                                <h4 class="feature__title">Надежность</h4>
+                                <p class="feature__text">Соблюдение сроков и гарантия качества</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Услуги</span>
+                <h2 class="section-title">Полный цикл создания интерьера</h2>
+            </div>
+            
+            <div class="services__grid">
+                <div class="service-card service-card--featured">
+                    <div class="service-card__number">01</div>
+                    <h3 class="service-card__title">Концепция и планирование</h3>
+                    <p class="service-card__text">Разработка уникальной концепции, 3D-визуализация, подбор материалов и составление технического задания.</p>
+                    <ul class="service-card__list">
+                        <li>Эскизные решения</li>
+                        <li>3D-визуализация</li>
+                        <li>Планировочные решения</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__number">02</div>
+                    <h3 class="service-card__title">Дизайн-проект</h3>
+                    <p class="service-card__text">Полный комплект рабочей документации для строителей: чертежи, схемы, ведомости.</p>
+                    <ul class="service-card__list">
+                        <li>Рабочие чертежи</li>
+                        <li>Спецификации</li>
+                        <li>Смета</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__number">03</div>
+                    <h3 class="service-card__title">Авторский надзор</h3>
+                    <p class="service-card__text">Контроль выполнения работ на объекте для точного соответствия дизайн-проекту.</p>
+                    <ul class="service-card__list">
+                        <li>Контроль качества</li>
+                        <li>Выезды на объект</li>
+                        <li>Решение вопросов</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__number">04</div>
+                    <h3 class="service-card__title">Комплектация</h3>
+                    <p class="service-card__text">Подбор и заказ мебели, освещения, текстиля и аксессуаров у проверенных поставщиков.</p>
+                    <ul class="service-card__list">
+                        <li>Подбор мебели</li>
+                        <li>Заказ и доставка</li>
+                        <li>Декорирование</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Портфолио</span>
+                <h2 class="section-title">Реализованные проекты</h2>
+            </div>
+            
+            <div class="projects__grid">
+                <div class="project-card project-card--large">
+                    <div class="project-card__image">
+                        <img src="1.jpg" alt="Минималистичная гостиная">
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__category">Квартира</span>
+                        <h3 class="project-card__title">Лофт в центре Москвы</h3>
+                        <p class="project-card__text">Просторная квартира в индустриальном стиле с открытой планировкой.</p>
+                        <a href="#" class="project-card__link">Подробнее →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-card__image">
+                        <img src="3.jpg" alt="Скандинавская спальня">
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__category">Загородный дом</span>
+                        <h3 class="project-card__title">Дом в лесу</h3>
+                        <p class="project-card__text">Экологичный проект с панорамными окнами и натуральными материалами.</p>
+                        <a href="#" class="project-card__link">Подробнее →</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-card__image">
+                        <img src="2.jpg" alt="Современная кухня">
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__category">Апартаменты</span>
+                        <h3 class="project-card__title">Минимализм у моря</h3>
+                        <p class="project-card__text">Светлые апартаменты с акцентом на естественное освещение и простые формы.</p>
+                        <a href="#" class="project-card__link">Подробнее →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#" class="btn btn--outline">Все проекты</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Процесс -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Процесс</span>
+                <h2 class="section-title">Как мы работаем</h2>
+                <p class="section-subtitle">Четкий поэтапный подход обеспечивает предсказуемый результат и комфортное сотрудничество</p>
+            </div>
+            
+            <div class="process__timeline">
+                <div class="process-step">
+                    <div class="process-step__number">1</div>
+                    <div class="process-step__content">
+                        <h3 class="process-step__title">Знакомство и бриф</h3>
+                        <p class="process-step__text">Обсуждение ваших пожеланий, образа жизни, бюджета. Замеры и анализ помещения.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-step__number">2</div>
+                    <div class="process-step__content">
+                        <h3 class="process-step__title">Концепция и эскизы</h3>
+                        <p class="process-step__text">Разработка 2-3 концепций интерьера, подбор референсов, создание 3D-визуализаций.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-step__number">3</div>
+                    <div class="process-step__content">
+                        <h3 class="process-step__title">Дизайн-проект</h3>
+                        <p class="process-step__text">Создание полного пакета документации: чертежи, схемы, ведомости материалов.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-step__number">4</div>
+                    <div class="process-step__content">
+                        <h3 class="process-step__title">Реализация</h3>
+                        <p class="process-step__text">Строительные работы, авторский надзор, закупка и поставка материалов, мебели.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-step__number">5</div>
+                    <div class="process-step__content">
+                        <h3 class="process-step__title">Завершение</h3>
+                        <p class="process-step__text">Финальный декорирование, уборка, передача объекта и гарантийное обслуживание.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Готовы создать интерьер мечты?</h2>
+                <p class="cta__text">Запишитесь на бесплатную консультацию с нашим дизайнером. Обсудим ваши идеи и составим предварительный план.</p>
+                
+                <form class="cta__form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Ваш телефон" required class="form-input">
+                    </div>
+                    <button type="submit" class="btn btn--primary">Записаться на консультацию</button>
+                </form>
+                
+                <p class="cta__note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <a href="#" class="logo logo--footer">
+                        <span class="logo__symbol">ND</span>
+                        <span class="logo__text">Nordic<span class="logo__accent">Design</span></span>
+                    </a>
+                    <p class="footer__tagline">Создаем интерьеры, которые вдохновляют на жизнь.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Pinterest">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__nav">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Услуги</h4>
+                        <ul class="footer__list">
+                            <li><a href="#services">Дизайн-проект</a></li>
+                            <li><a href="#services">Ремонт под ключ</a></li>
+                            <li><a href="#services">Авторский надзор</a></li>
+                            <li><a href="#services">Комплектация</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Студия</h4>
+                        <ul class="footer__list">
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#projects">Портфолио</a></li>
+                            <li><a href="#process">Процесс</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Контакты</h4>
+                        <ul class="footer__list footer__contacts">
+                            <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Дизайнеров, 12</li>
+                            <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                            <li><i class="fas fa-envelope"></i> hello@nordicdesign.ru</li>
+                            <li><i class="fas fa-clock"></i> Пн-Пт: 10:00–19:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2023 Nordic Design. Все права защищены.</p>
+                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
